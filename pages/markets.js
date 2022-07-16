@@ -22,7 +22,9 @@ export async function getServerSideProps(context) {
 }
 
 export default function Markets({ markets }) {
-    return <div className={styles.grid}>
-        {markets.map((market) => <MarketCard key={market.location.id} market={market} />)}
-    </div>
+    return (
+        <div className={styles.grid}>
+            {markets.map((market) => <MarketCard key={market.location.id} market={market} />)}
+        </div>
+    )
 }

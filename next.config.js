@@ -7,8 +7,16 @@ const nextConfig = {
         "fellowfarmer.s3.amazonaws.com",
         "cdn.fellowfarmer.com"
     ]
-  }
-
+  },
+  async redirects() {
+      return [
+          {
+              source: "/",
+              destination: "/markets",
+              permanent: true,
+          },
+      ]
+  },
 }
 
 module.exports = nextConfig
