@@ -17,6 +17,11 @@
     margin-top: auto;
 }
 
+.imageContainer {
+    position: relative;
+    height: 270px;
+}
+
 @media (max-width: 600px) {
     .grid {
         flex-direction: row;
