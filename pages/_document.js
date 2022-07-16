@@ -1,10 +1,10 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
+// noinspection HtmlRequiredTitleElement
 export default class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <!--suppress HtmlRequiredTitleElement -->
                 <Head>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
