@@ -10,10 +10,6 @@ query MarketsQuery {
                 src
             }
         }
-        producer {
-            id
-            name
-        }
    }
 }
 `
